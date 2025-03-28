@@ -1,10 +1,91 @@
 <!DOCTYPE html>
+<html lang="vi">
 <head>
-    <meta   charset="utf-8">
-    <title>Gioi thieu CSS</title>
-    <link rel="stylesheet" type="text/CSS" href="style.css">
-</head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Khóa Biểu và Thông Tin Trường Học</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4a261;
+        }
+        img {
+            width: 300px;
+            margin-top: 20px;
+        }
+        .about {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
 <body>
-  <h1> 12a12</h1>
-  <h2>Lop12a12</h2>
+    <header>Trường THPT Nguyễn Thông</header>
+    <main>
+        <section class="about">
+            <h2>Giới thiệu</h2>
+            <p>Trường THPT Nguyễn Thông là nơi nơi chắp cánh ước mơ cho bao thế hệ học sinh với môi trường học tập gần gũi và đầy nhiệt huyết.</p>
+        </section>
+        <h1>Thời Khóa Biểu</h1>
+        <table>
+            <tr>
+                <th>Thứ</th>
+                <th>Tiết 1</th>
+                <th>Tiết 2</th>
+                <th>Tiết 3</th>
+                <th>Tiết 4</th>
+            </tr>
+            <tr>
+                <td>Thứ Hai</td>
+                <td>Toán</td>
+                <td>Văn</td>
+                <td>Anh</td>
+                <td>Lý</td>
+            </tr>
+            <tr>
+                <td>Thứ Ba</td>
+                <td>Hóa</td>
+                <td>Sinh</td>
+                <td>Sử</td>
+                <td>Địa</td>
+            </tr>
+        </table>
+        <img src="hinh.jpg" alt="Hình minh họa">
+        <section class="about">
+            <h2>Liên hệ</h2>
+            <p>Địa chỉ: Thị trấn Tầm Vu, huyện Châu Thành, tỉnh Long An.</p>
+            <p>Email: c3nguyenthong.longan@moet.edu.vn</p>
+            <p>Điện thoại: 0272.3878436</p>
+        </section>
+    </main>
 </body>
+</html>
